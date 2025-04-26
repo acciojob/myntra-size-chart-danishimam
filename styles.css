@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        thead {
+            background-color: #a52a2a; /* Dark Red Header */
+            color: white;
+        }
+
+        thead th {
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid black;
+        }
+
+        tbody tr:nth-child(1) {
+            background-color: #e6b8b7; /* Light pink for Waist */
+        }
+
+        tbody tr:nth-child(2) {
+            background-color: #ead1dc; /* Light pink for Chest */
+        }
+
+        tbody tr:nth-child(3) {
+            background-color: #d9d9d9; /* Light grey for Sleeve */
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+            font-size: 14px;
+        }
+
+        tbody td:first-child {
+            text-align: left;
+            font-weight: bold;
+        }
